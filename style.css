@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Phudu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(36, 33, 33, 0.74);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 36, 119);
+  padding: 10px;
+}
+
+.navbar-logo img {
+  margin-top: 20px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.navbar-menu li {
+  margin-left: 20px;
+}
+
+.navbar-menu li:first-child {
+  margin-left: 0;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.navbar-menu li a:hover,
+.footer-list a:hover {
+  background: red;
+  transition: 0.5s;
+}
+
+.slider img {
+  margin-top: 10px;
+  width: 100%;
+  height: 740px;
+}
+
+.sidebar {
+  background: rgb(187, 26, 26);
+  width: 18%;
+  float: left;
+  height: 1325px;
+}
+
+.sidebar .eleven {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  border: 2px solid rgb(5, 12, 54);
+  background-color: rgb(5, 36, 119);
+  color: rgb(216, 216, 222);
+}
+
+.sidebar li {
+  margin-top: 85px;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: rgb(197, 138, 11);
+}
+
+.sidebar li a:hover {
+  background-color: rgb(28, 28, 130);
+  padding: 20px;
+}
+
+.cards {
+  width: 15%;
+  float: right;
+  margin: 20px 45px;
+  background-color: rgb(5, 36, 119);
+  border: 2px solid rgb(136, 6, 6);
+}
+
+.cards .image img {
+  width: 100%;
+}
+
+.card-title,
+.des {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.des button {
+  margin: 20px;
+  padding: 5px;
+}
+
+.card-main-title {
+  text-align: center;
+}
+
+.between-image img {
+  width: 75%;
+  margin-left: 86px;
+  height: 550px;
+  margin-top: 5px;
+  object-fit: cover;
+  border: 2px solid rgb(5, 36, 119);
+}
+
+.main {
+  float: left;
+  position: relative;
+  width: 100%;
+  color: rgba(141, 156, 29, 0.925);
+  font-family: "Phudu", cursive;
+}
+
+.main img {
+  position: absolute;
+  width: 100%;
+  height: 520px;
+}
+
+.main h3,
+.main p {
+  left: 18px;
+  top: 120px;
+  font-size: 55px;
+  position: absolute;
+}
+
+.main p {
+  top: 168px;
+  color: rgb(182, 36, 36);
+}
+
+.main .input-btn {
+  position: absolute;
+  right: 230px;
+  top: 130px;
+}
+
+.main .input-btn input {
+  padding: 20px;
+  padding-left: 120px;
+}
+
+.main .input-btn .ibtn {
+  padding: 20px;
+  position: absolute;
+}
+
+.card-maincontainer1 {
+  padding-top: 750px;
+}
+
+.cards1 {
+  width: 20%;
+  float: left;
+  margin: 20px 45px;
+  background-color: rgb(5, 36, 119);
+  border: 2px solid rgb(136, 6, 6);
+}
+
+.cards1 .image1 img {
+  width: 100%;
+}
+
+.card-title1,
+.des1 {
+  text-align: center;
+  color: wheat;
+}
+
+.des1 button {
+  margin: 20px;
+  padding: 5px;
+}
+
+.card-main-title {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: rgb(197, 138, 11);
+}
+
+.upfooter-image img {
+  width: 94.8%;
+  height: 800px;
+  margin-left: 43px;
+  object-fit: fill;
+  cursor: pointer;
+  border: 4px solid rgba(32, 1, 4, 0.925);
+}
+
+.footer {
+  background-color: rgb(5, 36, 119);
+  height: 300px;
+  margin-left: -150px;
+}
+
+.footer-menu {
+  display: inline-block;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-top: 20px;
+  clear: both;
+}
+
+.footer-list li a {
+  text-decoration: none;
+  margin-left: -40px;
+  font-size: 40px;
+  color: white;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo img {
+  width: 500px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.list2 {
+  float: right;
+  font-size: 40px;
+}
+
+.list2 li {
+  margin-right: 1000px;
+}
+
+.list3 {
+  float: right;
+}
+
+.list3 li {
+  margin-right: 800px;
+  position: relative;
+  bottom: 265px;
+  left: 120px;
+  font-size: 40px;
+}
+
+.footer {
+  position: relative;
+  margin-top: 120px;
+}
+
+.map {
+  position: absolute;
+  right: 65px;
+  top: 3px;
+}
+
+.list1 a:hover {
+  background-color: rgb(223, 147, 7);
+}
+
+.list2,
+.list3 {
+  color: rgb(223, 147, 7);
+}
+
+.copyright {
+  background-color: rgb(20, 19, 19);
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.all {
+  margin-top: 120px;
+}
